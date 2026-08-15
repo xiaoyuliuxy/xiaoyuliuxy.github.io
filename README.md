@@ -1,9 +1,5 @@
 # GitHub Pages Research Website Template
 
-This is a static academic homepage template inspired by the structure of:
-
-- https://bangann.github.io/
-- https://zjujefflai.github.io/
 
 It is designed for a precise research homepage and can be hosted directly on GitHub Pages without a build step.
 
