@@ -1,34 +1,22 @@
-# GitHub Pages Research Website Template
+# Xiaoyu Liu
 
+Personal research homepage for Xiaoyu Liu, hosted with GitHub Pages:
 
-It is designed for a precise research homepage and can be hosted directly on GitHub Pages without a build step.
+https://xiaoyuliuxy.github.io/
 
-## What is included
+## Contents
 
-- concise profile and professional links
-- research bio and job-market positioning
-- news, selected publications, experience, and contact sections
-- responsive desktop and mobile layout
-- `404.html`, `robots.txt`, and `.nojekyll` for GitHub Pages
+- research bio and professional links
+- news
+- selected publications
+- profile photo and static assets
 
-## Publish on GitHub Pages
+## Development
 
-1. Create a GitHub repository named `xiaoyuliuxy.github.io`.
-2. Upload everything in this folder to the repository root.
-3. In GitHub, open Settings > Pages.
-4. Choose Deploy from a branch, then select `main` and `/root`.
-5. Visit `https://xiaoyuliuxy.github.io/` after GitHub finishes publishing.
+This is a static website with no build step. Edit the files directly:
 
-## Customize
+- `index.html` for homepage content
+- `styles.css` for layout and visual style
+- `assets/` for images and other static files
 
-Edit `index.html` to replace:
-
-- `Ariel Liu`
-- `ariel@example.com`
-- CV, Scholar, LinkedIn, and GitHub links
-- research interests
-- news items
-- publications
-- experience entries
-
-Replace `assets/research-portrait.svg` with a real profile photo if you have one. Keep the filename the same, or update the image path in `index.html`.
+GitHub Pages publishes from the `master` branch.
