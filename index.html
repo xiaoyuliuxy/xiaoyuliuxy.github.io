@@ -5,19 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Ariel Liu's research homepage with selected publications, projects, and experience."
+      content="Xiaoyu Liu's research homepage with selected publications, projects, and experience."
     />
-    <title>Ariel Liu</title>
+    <title>Xiaoyu Liu</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Ariel Liu home">Ariel Liu</a>
+      <a class="brand" href="#top" aria-label="Xiaoyu Liu home">Xiaoyu Liu</a>
       <nav class="nav" aria-label="Primary navigation">
-        <a href="#research">Research</a>
+        <a href="#news">News</a>
         <a href="#publications">Publications</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
       </nav>
     </header>
 
@@ -27,162 +25,183 @@
           <div class="portrait-wrap">
             <img
               class="portrait"
-              src="assets/research-portrait.svg"
-              alt="Abstract portrait illustration for Ariel Liu"
+              src="assets/profile-photo.jpg"
+              alt="Portrait of Xiaoyu Liu"
             />
-          </div>
-          <h1>Ariel Liu</h1>
-          <p class="role">Researcher in Machine Learning and Human-Centered AI</p>
-          <div class="link-row" aria-label="Professional links">
-            <a href="mailto:ariel@example.com">Email</a>
-            <a href="#" aria-label="CV link">CV</a>
-            <a href="#" aria-label="Google Scholar link">Scholar</a>
-            <a href="#" aria-label="LinkedIn link">LinkedIn</a>
-            <a href="#" aria-label="GitHub link">GitHub</a>
           </div>
         </aside>
 
-        <section class="intro-copy" aria-labelledby="bio-heading">
-          <h2 id="bio-heading">Bio</h2>
+        <section class="intro-copy" aria-label="Bio">
           <p>
-            I am a researcher working at the intersection of machine learning,
-            trustworthy AI, and data-driven systems. My work develops methods
-            for evaluating model behavior, improving robustness, and studying
-            how AI systems interact with human decision-making.
+            Hi, this is Xiaoyu.
           </p>
           <p>
-            This site collects selected publications, projects, and research
-            experience.
+            I am a research engineer at Google, where I have worked on
+            post-training and alignment for large multimodal models since 2025.
+            Prior to joining Google, I received my Ph.D. at
+            the University of Maryland, College Park, advised by 
+            <a href="https://furong-huang.com/">Professor Furong Huang</a> on 
+            causal inference, trustworthy AI and their applications in LLM. I received my bachelor's degree in mathematics and computer science from Colorado State
+            University, where I worked on optimization and computational methods with <a href="https://mathematics.colostate.edu/person/?id=99AFB6D7741C5E159D173BE768B0A056&sq=t">Professor Michael Kirby</a>.
           </p>
-          <div class="research-tags" aria-label="Research areas">
-            <span>Trustworthy AI</span>
-            <span>Foundation Models</span>
-            <span>Evaluation</span>
-            <span>Human-AI Systems</span>
+          <div class="link-row" aria-label="Professional links">
+            <a class="icon-link" href="mailto:xiaoyu.liu1231@gmail.com">
+              <svg class="link-icon" aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M4 6h16v12H4z" />
+                <path d="m4 7 8 6 8-6" />
+              </svg>
+              Email
+            </a>
+            <a class="icon-link" href="#" aria-label="CV link">
+              <svg class="link-icon" aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M6 2h8l4 4v16H6z" />
+                <path d="M14 2v5h5" />
+                <path d="M9 13h6" />
+                <path d="M9 17h4" />
+              </svg>
+              CV
+            </a>
+            <a class="icon-link" href="https://scholar.google.com/citations?user=BnEHjnQAAAAJ&hl=en&oi=ao" aria-label="Google Scholar link">
+              <svg class="link-icon" aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M12 3 2 8l10 5 10-5z" />
+                <path d="M6 10.5V16c2 2 10 2 12 0v-5.5" />
+                <path d="M22 8v6" />
+              </svg>
+              Google Scholar
+            </a>
+            <a class="icon-link" href="https://www.linkedin.com/in/xiaoyuliu1231/" aria-label="LinkedIn link">
+              <svg class="link-icon" aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z" />
+                <path d="M2 9h4v12H2z" />
+                <path d="M4 4h.01" />
+              </svg>
+              LinkedIn
+            </a>
+            <a class="icon-link" href="#" aria-label="GitHub link">
+              <svg class="link-icon" aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5a4.3 4.3 0 0 0-1.2-3A4 4 0 0 0 18.7 3s-1 0-3 1.5a10.5 10.5 0 0 0-5.4 0C8.3 3 7.3 3 7.3 3a4 4 0 0 0-.1 3A4.3 4.3 0 0 0 6 9c0 3.5 3 5.5 6 5.5a4.8 4.8 0 0 0-1 3.5v4" />
+                <path d="M9 18c-4.5 2-5-2-7-2" />
+              </svg>
+              GitHub
+            </a>
           </div>
         </section>
       </section>
 
-      <section class="content-grid">
-        <section class="main-column">
-          <section id="research" class="section-block" aria-labelledby="research-heading">
-            <h2 id="research-heading">Research Interests</h2>
-            <p>
-              My research focuses on model evaluation, robustness, and
-              human-centered AI. I study how models behave under changing data
-              conditions and how evaluation can better reflect practical use.
-            </p>
-            <ul class="plain-list">
-              <li>Model evaluation methods that reveal failure modes before deployment.</li>
-              <li>Learning algorithms for robust, label-efficient, and adaptable systems.</li>
-              <li>Human-centered workflows for AI-assisted research, review, and decision support.</li>
-              <li>Responsible AI practices for transparency, safety, fairness, and accountability.</li>
-            </ul>
-          </section>
-
-          <section id="publications" class="section-block" aria-labelledby="publications-heading">
-            <div class="section-title-row">
-              <h2 id="publications-heading">Selected Publications</h2>
-              <a href="#" class="small-link">Full list</a>
-            </div>
-            <article class="publication">
-              <h3>
-                <a href="#">Benchmarking Robustness in Human-Centered Machine Learning Systems</a>
-              </h3>
-              <p class="authors"><strong>Ariel Liu</strong>, Collaborator Name, Advisor Name</p>
-              <p class="venue">Conference on Neural Information Processing Systems, 2026</p>
-              <p class="pub-links"><a href="#">Paper</a> <a href="#">Code</a> <a href="#">Project</a></p>
-            </article>
-            <article class="publication">
-              <h3>
-                <a href="#">Adaptive Evaluation for Foundation Models Under Distribution Shift</a>
-              </h3>
-              <p class="authors"><strong>Ariel Liu</strong>, Collaborator Name</p>
-              <p class="venue">International Conference on Machine Learning, 2025</p>
-              <p class="pub-links"><a href="#">Paper</a> <a href="#">Dataset</a></p>
-            </article>
-            <article class="publication">
-              <h3>
-                <a href="#">Interactive Tools for Auditing Model Behavior in High-Stakes Workflows</a>
-              </h3>
-              <p class="authors">Collaborator Name, <strong>Ariel Liu</strong>, Advisor Name</p>
-              <p class="venue">ACM Conference on Human Factors in Computing Systems, 2024</p>
-              <p class="pub-links"><a href="#">Paper</a> <a href="#">Demo</a></p>
-            </article>
-          </section>
-
-          <section id="experience" class="section-block" aria-labelledby="experience-heading">
-            <h2 id="experience-heading">Experience</h2>
-            <div class="timeline">
-              <div class="timeline-item">
-                <span class="date">2025 - Present</span>
-                <div>
-                  <h3>Research Assistant, University or Lab Name</h3>
-                  <p>
-                    Developing evaluation and adaptation methods for reliable
-                    machine learning systems.
-                  </p>
-                </div>
-              </div>
-              <div class="timeline-item">
-                <span class="date">Summer 2025</span>
-                <div>
-                  <h3>Research Intern, Organization Name</h3>
-                  <p>
-                    Built model analysis tools and ran large-scale experiments
-                    for applied AI research.
-                  </p>
-                </div>
-              </div>
-              <div class="timeline-item">
-                <span class="date">2021 - 2024</span>
-                <div>
-                  <h3>Graduate Researcher, Department Name</h3>
-                  <p>
-                    Published work on model reliability, data quality, and
-                    human-centered evaluation.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
+      <section class="content-flow">
+        <section id="news" class="section-block" aria-labelledby="news-heading">
+          <h2 id="news-heading">News</h2>
+          <ul class="news-list">
+            <li>
+              <time datetime="2026">2026</time>
+              <span>Released <strong>PersonaLedger</strong>, a privacy-preserving synthetic transaction dataset and benchmark for financial AI, generated through persona-conditioned LLMs with rule-grounded feedback.</span>
+            </li>
+            <li>
+              <time datetime="2026">2026</time>
+              <span>One paper was accepted to <span class="news-venue">NeurIPS</span>: <strong>ViCrit</strong>, a verifiable RL proxy task that trains VLMs to localize subtle visual caption hallucinations.</span>
+            </li>
+            <li>
+              <time datetime="2025">2025</time>
+              <span>Two papers on causal debiasing and model understanding were accepted: <strong>Prompting Fairness</strong> for LLMs at <span class="news-venue">ICLR</span> and <strong>CSRec</strong> for large recommendation models at <span class="news-venue">SIGIR</span>.</span>
+            </li>
+            <li>
+              <time datetime="2025">2025</time>
+              <span>One paper was accepted to <span class="news-venue">EMNLP</span>: <strong>DISCO</strong>, a domain- and difficulty-aware RL method for imbalanced alignment data.</span>
+            </li>
+            <li>
+              <time datetime="2024">2024</time>
+              <span>Three works on VLM hallucination benchmarking were released: <strong>HallusionBench</strong> at <span class="news-venue">CVPR</span>, <strong>Mementos</strong> at <span class="news-venue">ACL</span>, and <strong>AutoHallusion</strong> at <span class="news-venue">EMNLP</span>.</span>
+            </li>
+            <li>
+              <time datetime="2024">2024</time>
+              <span>One paper on causal debiasing for LLM-generated medical reports was accepted to <span class="news-venue">Communications Medicine</span>, and one paper on eliminating spurious correlations in LLMs was accepted to <span class="news-venue">ACL</span>.</span>
+            </li>
+          </ul>
         </section>
 
-        <aside class="side-column" aria-label="News and highlights">
-          <section class="section-block compact" aria-labelledby="news-heading">
-            <h2 id="news-heading">News</h2>
-            <ul class="news-list">
-              <li><time datetime="2026-08">Aug 2026</time> Updated research homepage and selected work.</li>
-              <li><time datetime="2026-05">May 2026</time> Presented recent work on reliable AI evaluation.</li>
-              <li><time datetime="2026-01">Jan 2026</time> Paper accepted to a major ML conference.</li>
-              <li><time datetime="2025-09">Sep 2025</time> Released research code and experiment artifacts.</li>
-            </ul>
-          </section>
-
-          <section class="section-block compact" aria-labelledby="highlights-heading">
-            <h2 id="highlights-heading">Highlights</h2>
-            <ul class="plain-list">
-              <li>Selected work in machine learning and AI evaluation</li>
-              <li>ML, AI evaluation, responsible AI</li>
-              <li>Industry and academic collaboration experience</li>
-              <li>Comfortable with research prototypes and production-facing tools</li>
-            </ul>
-          </section>
-
-          <section id="contact" class="section-block compact contact-block" aria-labelledby="contact-heading">
-            <h2 id="contact-heading">Contact</h2>
-            <p>
-              For collaborations or research-related conversations, please
-              reach out by email.
-            </p>
-            <a class="contact-button" href="mailto:ariel@example.com">ariel@example.com</a>
-          </section>
-        </aside>
+        <section id="publications" class="section-block" aria-labelledby="publications-heading">
+          <div class="section-title-row">
+            <h2 id="publications-heading">Selected Publications</h2>
+            <a href="https://scholar.google.com/citations?hl=en&user=BnEHjnQAAAAJ&view_op=list_works&sortby=pubdate" class="small-link">Full list</a>
+          </div>
+          <article class="publication">
+            <h3>
+              <a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/545f4b500fc99ccc4424b50efa959b30-Abstract-Conference.html">ViCrit: A Verifiable Reinforcement Learning Proxy Task for Visual Perception in VLMs</a>
+            </h3>
+            <p class="authors">Xiyao Wang, Zhengyuan Yang, Chao Feng, Yuhang Zhou, <strong>Xiaoyu Liu</strong>, et al.</p>
+            <p class="venue">NeurIPS, 2025</p>
+            <p class="pub-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/545f4b500fc99ccc4424b50efa959b30-Abstract-Conference.html">Paper</a> <a href="https://github.com/si0wang/ViCrit">Code</a></p>
+          </article>
+          <article class="publication">
+            <h3>
+              <a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/9f26a2d143a227376dff99a279f93f99-Abstract-Conference.html">Prompting Fairness: Integrating Causality to Debias Large Language Models</a>
+            </h3>
+            <p class="authors">Jingling Li, Zeyu Tang, <strong>Xiaoyu Liu</strong>, Peter Spirtes, Kun Zhang, Liu Leqi, Yang Liu</p>
+            <p class="venue">ICLR, 2025</p>
+            <p class="pub-links"><a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/9f26a2d143a227376dff99a279f93f99-Abstract-Conference.html">Paper</a></p>
+          </article>
+          <article class="publication">
+            <h3>
+              <a href="https://dl.acm.org/doi/10.1145/3726302.3730058">CSRec: Rethinking Sequential Recommendation from A Causal Perspective</a>
+            </h3>
+            <p class="authors"><strong>Xiaoyu Liu</strong>, Jiaxin Yuan, Yuhang Zhou, Jingling Li, Furong Huang, Wei Ai</p>
+            <p class="venue">SIGIR, 2025</p>
+            <p class="pub-links"><a href="https://dl.acm.org/doi/10.1145/3726302.3730058">Paper</a> <a href="https://github.com/margotyjx/CSRec_repo">Code</a></p>
+          </article>
+          <article class="publication">
+            <h3>
+              <a href="https://aclanthology.org/2025.findings-emnlp.74/">DISCO Balances the Scales: Adaptive Domain- and Difficulty-Aware Reinforcement Learning on Imbalanced Data</a>
+            </h3>
+            <p class="authors">Yuhang Zhou, Jing Zhu, Shengyi Qian, Zhuokai Zhao, Xiyao Wang, <strong>Xiaoyu Liu</strong>, et al.</p>
+            <p class="venue">Findings of EMNLP, 2025</p>
+            <p class="pub-links"><a href="https://aclanthology.org/2025.findings-emnlp.74/">Paper</a></p>
+          </article>
+          <article class="publication">
+            <h3>
+              <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Guan_HallusionBench_An_Advanced_Diagnostic_Suite_for_Entangled_Language_Hallucination_and_CVPR_2024_paper.html">HallusionBench: An Advanced Diagnostic Suite for Entangled Language Hallucination and Visual Illusion in Large Vision-Language Models</a>
+            </h3>
+            <p class="authors">Tianrui Guan, Fuxiao Liu, Xiyang Wu, Ruiqi Xian, Zongxia Li, <strong>Xiaoyu Liu</strong>, et al.</p>
+            <p class="venue">CVPR, 2024</p>
+            <p class="pub-links"><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Guan_HallusionBench_An_Advanced_Diagnostic_Suite_for_Entangled_Language_Hallucination_and_CVPR_2024_paper.html">Paper</a> <a href="https://github.com/tianyilab/HallusionBench">Code</a></p>
+          </article>
+          <article class="publication">
+            <h3>
+              <a href="https://aclanthology.org/2024.acl-long.25/">Mementos: A Comprehensive Benchmark for Multimodal Large Language Model Reasoning over Image Sequences</a>
+            </h3>
+            <p class="authors">Xiyao Wang, Yuhang Zhou, <strong>Xiaoyu Liu</strong>, Hongjin Lu, Yuancheng Xu, et al.</p>
+            <p class="venue">ACL, 2024</p>
+            <p class="pub-links"><a href="https://aclanthology.org/2024.acl-long.25/">Paper</a></p>
+          </article>
+          <article class="publication">
+            <h3>
+              <a href="https://aclanthology.org/2024.findings-emnlp.493/">AutoHallusion: Automatic Generation of Hallucination Benchmarks for Vision-Language Models</a>
+            </h3>
+            <p class="authors">Xiyang Wu, Tianrui Guan, Dianqi Li, Shuaiyi Huang, <strong>Xiaoyu Liu</strong>, et al.</p>
+            <p class="venue">Findings of EMNLP, 2024</p>
+            <p class="pub-links"><a href="https://aclanthology.org/2024.findings-emnlp.493/">Paper</a> <a href="https://github.com/wuxiyang1996/AutoHallusion">Code</a></p>
+          </article>
+          <article class="publication">
+            <h3>
+              <a href="https://www.nature.com/articles/s43856-024-00601-z">Unmasking and Quantifying Racial Bias of Large Language Models in Medical Report Generation</a>
+            </h3>
+            <p class="authors">Yifan Yang, <strong>Xiaoyu Liu</strong>, Qiao Jin, Furong Huang, Zhiyong Lu</p>
+            <p class="venue">Communications Medicine, 2024</p>
+            <p class="pub-links"><a href="https://www.nature.com/articles/s43856-024-00601-z">Paper</a></p>
+          </article>
+          <article class="publication">
+            <h3>
+              <a href="https://aclanthology.org/2024.acl-long.28/">Explore Spurious Correlations at the Concept Level in Language Models for Text Classification</a>
+            </h3>
+            <p class="authors">Yuhang Zhou, Paiheng Xu, <strong>Xiaoyu Liu</strong>, Bang An, Wei Ai, Furong Huang</p>
+            <p class="venue">ACL, 2024</p>
+            <p class="pub-links"><a href="https://aclanthology.org/2024.acl-long.28/">Paper</a></p>
+          </article>
+        </section>
       </section>
     </main>
 
     <footer class="footer">
-      <p>© 2026 Ariel Liu. Last updated August 2026.</p>
+      <p>© 2026 Xiaoyu Liu. Last updated August 2026.</p>
     </footer>
   </body>
 </html>
